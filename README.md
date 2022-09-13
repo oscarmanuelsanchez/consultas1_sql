@@ -1,5 +1,7 @@
 # consultas1_sql
 
+# EJERCICIOS CONSULTAS SQL
+
 #CONSULTAS SQL
 
 ![tabla usuario](img/tabla_usuario.png "Tabla usuario")
@@ -8,6 +10,10 @@
 
 `select * from usuario`
 
+![Consulta 1](img/captura2.png "Consulta1")
+
 2. Visualizar solamente la indentificación del usuario
 
 `select identificacion from usuario`
+
+![COnsulta 2](img/captura3.png "Consulta 2")

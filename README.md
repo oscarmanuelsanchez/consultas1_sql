@@ -17,3 +17,9 @@
 `select identificacion from usuario`
 
 ![COnsulta 2](img/captura3.png "Consulta 2")
+
+3. Si se desea obtener los registros cuya identificación sean mayores o iguales a 150; se debe utilizar la clausula WHERE que especifica las condiciones que deben los registros que se van a seleccionar.
+
+`SELECT * FROM usuario WHERE identificacion>=`150`
+
+![Consulta3](img/captura4.png "Consulta 3")

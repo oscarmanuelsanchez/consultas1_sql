@@ -4,7 +4,9 @@
 
 #CONSULTAS SQL
 
+
 ![tabla usuario](img/tabla_usuario.png "Tabla usuario")
+## COMANDO SELECT
 
 1. Para visualizar toda la información que contiene la tabla `usuario` se puede incluir con la instrucción SELECT el caracter '*' o cada uno de los campos de la tabla
 
@@ -55,3 +57,9 @@
 `SELECT * FROM usuario WHERE nombre LIKE '___a%'`
 
 ![Consulta8](img/captura10.png "Consulta8")
+
+9. Si se desea obtener los registros cuya identificacion este en el inventario 110 y 150, se debee utilizar la cláusula BETWEEN, que sirve para especificar un intervalo de valores.
+
+`SELECT * FROM usuario WHERE Identificación BETWEEN '110' and '150'`
+
+![Consulta9](img/captura11.png "Consulta9")

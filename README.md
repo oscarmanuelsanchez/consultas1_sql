@@ -73,3 +73,12 @@
 ![Consulta10](img/captura12.png "Consulta10")
 
 ## COMANDO UPDATE
+
+11. Para actualizar la ciudad de nacimiento de cristian vanegas, cuya identificación es 114.
+
+`UPDATE usuario SET ciudad nac = 'Manizalez' WHERE Identificación='114'`
+
+![Consulta11](img/captura12+1.png "Consulta11")
+![Consulta11](img/captura14.png "Consulta11")
+
+## INNER JOIN

@@ -82,3 +82,9 @@
 ![Consulta11](img/captura14.png "Consulta11")
 
 ## INNER JOIN
+
+Permite obtener datos de dos o mas tablas. Cuando se realiza la concatenación de las tablas, no necesariamente se deben mostrar todos los datos de las tablas.
+
+## Tabla pedidos
+
+![Tabla pedidos](img/tabla%20pedidos.png "Tabla pedios")

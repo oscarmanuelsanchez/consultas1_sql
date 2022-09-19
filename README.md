@@ -88,3 +88,10 @@ Permite obtener datos de dos o mas tablas. Cuando se realiza la concatenación d
 ## Tabla pedidos
 
 ![Tabla pedidos](img/tabla%20pedidos.png "Tabla pedios")
+
+12. Para visualizar los campos identificación, nombre, apellidos de la tabla de usuario y nropedido, fecha de compra, fecha de vencimiento y observación de la tabla pedidos, se debe realizar la siguiente instrucción SQL:
+
+
+`SELECT usuario.Identificacion, ususario.nombre, usuario.apellidos, pedido.nropedido, pedidos.fechaCompra, pedidos.fechaVence, pedidos.observacion FROM usuario INNER JOIN pedidos ON usuaeio, Identificacion = pedidos.Identificacion`
+
+![Consulta12](img/consulta12.png "Consulta12")
